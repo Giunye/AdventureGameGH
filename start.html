@@ -5,39 +5,52 @@
 
     </head>
     <body>
-        <h2>Choose Your Path</h2>
-        <p>You died and you have to choice.</p>
-        <a id="newworld" href="choice1.html">New world(name)</a>
-        <a id="reborn" href="choice2.html">Reborn</a>
+        <div class="container">
+            <h2 class="text">Choose Your Path</h2>
+            <p class="text1">You died and you have to choice.</p>
+            <a class="text1" href="choice1.html">New world(name)</a>
+            <a class="text1" href="choice2.html">Reborn</a>
+        </div>
     </body>
     <style>
     
     h2{
 
-        text-align: center;
         font-style: oblique;
 
     }
-
-    p{
-
-        text-align: center;
-
-    }
-
     a{
 
         text-decoration: none;
+        margin: 80px;
 
     }
 
     body{
 
-        background-color: beige;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        text-align: center;
 
     }
 
+    .container{
 
+        display: block;
+        justify-content: center;
+        margin: 180px;
+        height: 300px;
+        width: 600px;
+        background-color: beige;
+        
+    }
+
+    .text1{
+
+        margin-bottom: 60px;
+
+    }
     
     </style>
 
