@@ -3,11 +3,11 @@
 <html>
 
     <body>
-
-        <p>Oh no! You don't have any weapon, but you still have two choices:</p>
-        <a href="C_Punch.html">Punch</a>
-        <a href="C_Run2.html">Run</a>
-
+        <div class="container">
+            <p class="tx">Oh no! You don't have any weapon, but you still have two choices:</p>
+            <a class="tx" href="C_Punch.html">Punch</a>
+            <a class="tx" href="C_Run2.html">Run</a>
+        </div>
     </body>
 
     <style>
@@ -15,8 +15,39 @@
         body{
 
             background-color: gray;
+            display: flex;
+            justify-content: center;
+            text-align: center;
 
         }
+
+        .container{
+
+            display: block;
+            justify-content: center;
+            margin: 180px;
+            height: 300px;
+            width: 600px;
+            background-color: beige;
+
+        }
+
+        .tx{
+
+            margin-bottom: 100px;
+
+        }
+
+        a{
+
+            text-decoration: none;
+            margin: 80px;
+
+        }
+
+
+
+
 
     </style>
 
