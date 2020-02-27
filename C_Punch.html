@@ -3,10 +3,10 @@
 <html>
 
     <body>
-
-        <p>Oh no! You died. You should have run.</p>
-        <a href="C_Die.html">Continue</a>
-
+        <div class="container">
+        <p class="tx">Oh no! You died. You should have run.</p>
+        <a class="link1" href="C_Die.html">Continue</a>
+        </div>
     </body>
 
     <style>
@@ -14,6 +14,35 @@
         body{
 
             background-color: gray;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .container{
+
+            height: 300px;
+            width: 600px;
+            background-color: beige;
+            margin: 180px;
+
+        }
+
+        .link1{
+
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+        margin-top: 205px;
+
+        }
+
+        .tx{
+
+            display: flex;
+            justify-content: center;
 
         }
 
